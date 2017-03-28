@@ -25,7 +25,7 @@ $builder
             ))
         ;
 ```
-2. Prepeare your HTML template (for me I used a javascript function) and put your "data-name" target between two `#` so that `SFCollectionAnalyzer` will know where to put each field:
+2. Prepare your HTML template (for me I used a javascript function) and put your "data-name" target between two `#` so that `SFCollectionAnalyzer` will know where to put each field:
 ```javascript
 function myTemplate() {
     return `<div>
