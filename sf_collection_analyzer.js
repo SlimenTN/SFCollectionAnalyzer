@@ -1,7 +1,7 @@
 /**
- * SFCollectionAnalyzer
+ * SFCollectionAnalyzer v1.0.0
  * JavaScript module to convert CollectionType of Symfony to HTML template
- *
+ * @author Arnaout slimen <arnaout.slimen@sbc.tn>
  */
 var SFCollectionAnalyzer = (function () {
     var inputs = ['input', 'select', 'checkbox', 'radio', 'textarea'];
