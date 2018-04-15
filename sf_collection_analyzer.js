@@ -52,6 +52,8 @@ var SFCollectionAnalyzer = (function () {
 
     return {
         buildTemplate: function (dom, template) {
+            const prototype = dom.attr('data-prototype');
+            const domPrototype = $('<div/>').html(prototype).contents();
             return build(dom, template);
         }
     }
